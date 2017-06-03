@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Roboto Condensed', sans-serif, Tahoma, Arial;
+}
+
+body {
+    background-color: #f7f7f7;
+    padding: 30px;
+}
+
+button {
+    border-radius: 30px;
+    border: 0;
+    padding: 10px 30px;
+    background-color: #555555;
+    color: white;
+}
+
+.button--green {
+    background-color: #98bf7c;
+}
+
+.white-block {
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+}
+
+.white-block--padding {
+    padding: 60px;
+}
+
+.white-block h1 {
+    margin-bottom: 20px;
+}
+
+.white-block p {
+    margin-bottom: 20px;
+    line-height: 34px;
+}
+
+.white-block .col-md-5 img {
+    width: 100%;
+}
+
+.line {
+    width: 100px;
+    height: 4px;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.white-block--mini img {
+    width: 100%;
+    display: block;
+}
+
+.white-block--mini {
+    letter-spacing: 0.4px;
+}
+
+.white-block--mini div:nth-child(2) {
+    padding: 30px 20px;
+}
+
+.white-block--mini div h2 {
+    margin-bottom: 10px;
+}
